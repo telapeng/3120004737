@@ -8,11 +8,6 @@ import java.util.List;
 
 public class SimHashUtils {
 
-    /**
-     * 传入String，计算出它的hash值，并以字符串形式输出
-     * @param str 传入的Srting类型字符串
-     * @return 返回str的hash值
-     */
     public static String getHash(String str){
         try{
             // 这里使用了MD5获得hash值
@@ -24,11 +19,7 @@ public class SimHashUtils {
         }
     }
 
-    /**
-     * 传入String,计算出它的simHash值，并以字符串形式输出
-     * @param str 传入的Srting类型字符串
-     * @return 返回str的simHash值
-     */
+   
     public static String getSimHash(String str){
         // 文本长度太短时HanLp无法取得关键字
         try{
